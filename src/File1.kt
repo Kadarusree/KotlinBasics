@@ -20,7 +20,7 @@ fun main(args : Array<String>){
     //We can print with normal conctination also
     println("Java concationation==="+anArray[0]+"==="+anArray[1]+"==="+anArray[2]+"===="+anArray[3])
     //With Kotlin conctatination
-    println("Kotlin Concatination===${anArray[0]}===${anArray[1]}===${anArray[2]}====${anArray[3]}")
+    println("Kotlin Concatination===${anArray.get(0)}===${anArray[1]}===${anArray[2]}====${anArray[3]}")
     //Creating an object of MyClass
     var objofmyClass = MyClass()
     objofmyClass.name = "It is a class"
@@ -58,3 +58,25 @@ fun main(args : Array<String>){
 class MyClass{
     var name = ""
 }
+
+/*Output of this programme is
+"C:\Program Files\Java\jdk-10.0.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\lib\idea_rt.jar=52617:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\bin" -Dfile.encoding=UTF-8 -classpath E:\Kotlin\Project1\out\production\Project1;C:\Users\DELL\.IdeaIC2019.3\config\plugins\Kotlin\kotlinc\lib\kotlin-stdlib.jar;C:\Users\DELL\.IdeaIC2019.3\config\plugins\Kotlin\kotlinc\lib\kotlin-reflect.jar;C:\Users\DELL\.IdeaIC2019.3\config\plugins\Kotlin\kotlinc\lib\kotlin-test.jar;C:\Users\DELL\.IdeaIC2019.3\config\plugins\Kotlin\kotlinc\lib\kotlin-stdlib-jdk7.jar;C:\Users\DELL\.IdeaIC2019.3\config\plugins\Kotlin\kotlinc\lib\kotlin-stdlib-jdk8.jar File1Kt
+Hello World
+Kotlin is programming langauge which runs on Java
+its age is 10.0
+Java concationation===1===2===3====4
+Kotlin Concatination===1===2===3====4
+Class name is It is a class
+Marks are 10 and long marks are 10
+Enter your Name :
+Srikanth
+Enter your Age
+26
+Hello Srikanth Your age is 26
+Enter Some Float value
+10.0
+10.0
+Process finished with exit code 0
+
+
+*/
